@@ -366,6 +366,33 @@ h3 {
   margin-top: 8px;
   font-weight: 700;
   color: var(--teal);
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.news-link:hover,
+.news-source:hover {
+  color: var(--green);
+}
+
+.news-extra {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.news-extra p {
+  margin: 0 0 12px;
+}
+
+.news-source {
+  display: inline-flex;
+  font-size: 0.92rem;
+  color: var(--teal);
+  font-weight: 700;
 }
 
 .tag {
